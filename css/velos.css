@@ -1,0 +1,96 @@
+Обнуление
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* ---------------- */
+body {
+}
+
+.wrapper {
+}
+.box-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.topp {
+    background: #c46969;
+    margin-bottom: 404px;
+    
+}
+.topp__img {
+    display: flex;
+    justify-content: space-between;
+}
+.topp__img-logo {
+}
+.topp__img-black {
+    padding: 0 70px 0 0;
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+.first__text {
+    width: 404px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #131313;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.first__button {
+    background: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 28px 81px;
+    height: 80px;
+    margin: 0 auto;
+}
+.first__button:hover{
+    background-color: rgb(143, 5, 5);
+}
+.first__button:active{
+    background-color: grey;
+    box-shadow: #131313 5px 5px 20px;
+    border-radius: 15px;
+    color:rgb(143, 5, 5); 
+    text-shadow: 5px 10px 10px #131313;
+}
