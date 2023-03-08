@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('.three-form__inner-img').slick({
+        arrows:false,
+        dots:true,
+        fade:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+    });
+});
+$(document).ready(function(){
+    $('.bike__buton').slick({
+        arrows:false,
+        dots:true,
+        fade:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+    });
+});

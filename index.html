@@ -4,62 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> velosyped </title>
-    <link rel="stylesheet" href="css/velos.css">
+    <title>velosyped_2</title>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/rover.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="box-content">
-            <div class="topp">
-                <div class="topp__img">
-                    <img class="topp__img-logo" src="img/logo-img.jpg" alt="">
-                    <img class="topp__img-black" src="img/black1.jpg" alt="тут був блек">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="topp__img-logo" src="img/logo-img.jpg" alt="logo">
+                </a>
+                <div class="logo_text_li">
+                    <ul class="top__li">
+                        <li class="top__text-li">Описание</li>
+                        <li class="top__text-li">Характеристики</li>
+                        <li class="top__text-li">стоимость</li>
+                    </ul>
                 </div>
+                <img class="topp__img-black" src="img/black1.jpg" alt="тут був блек">        
             </div>
-                <div class="box_text">
-                    <div class="box_text_1">
-                        <div>
-                            <h1>Xiaomi Himo C26</h1>
-                        </div>
-                        <div>
-                            <h2>Электрический велосипед</h2>
-                        </div>
-                        <div class="text_p">
-                            <p class="p_1">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
-                            <p class="p_2">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее.</p>
-                        </div>
+
+
+
+
+
+
+
+        </div>
+    </header>
+    <section class="bike">
+        <div class="container">
+            <div class="bike__inner">
+                <div class="bike__column">
+                    <h1 class="text_h1">Xiaomi Himo C26</h1>
+                    <h2 class="text__h2">Электрический велосипед</h2>
+                    <p class="column__p-1">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
+                    <p class="column__p-2">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее.</p>
+                    <a class="button" href="https://www.google.com/" type="target">
+                        <p>ЗАКАЗАТЬ</p> 
+                    </a>
+                </div>
+                <!--! ============= -->
+                <div class="bike__column-sekond">
+                    <div class="bike__buton">
+                        <img class="bicykle-blak" src="img/bicykle-img.jpg" alt="bicykle">
+                        <img class="bicykle-blak" src="img/slide_1_black.png" alt="bike_1">
+                        <img class="bicykle-blak" src="img/slide_1_white.png" alt="bike_2">
+                        <img class="bicykle-blak" src="img/slide_1_whitte.png" alt="bike_3">
                     </div>
-                    <div class="img_bicykle">
-                        <img class="bicykle" src="img/bicykle-img.jpg" alt="bicykle">
+                    <div class="text-span">
+                        <ul class="infa">
+                            <li class="infa__li">
+                                <span class="bold">до 100 км</span>
+                                <span class="norm">Запас хода</span>
+                            </li>
+                            <li class="infa__li">
+                                <span class="bold">25 км/ч</span>
+                                <span class="norm">Макс корость</span>
+                            </li>
+                            <li class="infa__li">
+                                <span class="bold">3 режима езды</span>
+                                <span class="norm">механический, гибридный, электрический</span>
+                            </li>
+                            <li class="infa__li">
+                                <span class="bold">25 кг</span>
+                                <span class="norm">вес</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="one_line">
-                    <div class="box_button">
-                        <a class="button" href="https://www.google.com/" type="target">
-                            <p>ЗАКАЗАТЬ</p> 
-                        </a>
+            </div> 
+        </div>
+    </section>
+                        <!-- !============== -->
+    <section class="two-form">
+        <div class="container">
+            <div class="two-form__inner">
+                <form class="form" action="#">
+                    <h4 class="form__title">Заказать</h4>
+                    <p class="form__text">
+                        Если Вы хотите заказать велосипед, оставьте свой контакт и наш менеджер перезвонит вам в ближайшее время
+                    </p>
+                    <input class="form__input-name" type="text" placeholder="имя">
+                    <input class="form__input-phone" type="text" placeholder="телефон">
+                    <p class="form__input-text">выберите желаемый цвет</p>
+                    <div class="label__radio-box">
+                        <label class="form__label">
+                            <input class="form__input-radio" type="radio" name="radio">
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="img/bike_grey.jpg" alt="grey">
+                                <p class="form__bike-price">30 999 грн.</p>
+                            </div>
+                            <div class="form__radio-style form__radio-style--grey"></div>
+                        </label>
+                        <label class="form__label">
+                            <input class="form__input-radio" type="radio" name="radio" checked="">
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="img/bike_white.jpg" alt="white">
+                                <p class="form__bike-price">32 999 грн.</p>
+                            </div>
+                            <div class="form__radio-style form__radio-style--white"></div>
+                        </label>
+                        <label class="form__label">
+                            <input class="form__input-radio" type="radio" name="radio">
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="img/bike_red.jpg" alt="red">
+                                <p class="form__bike-price">35 999 грн.</p>
+                            </div>
+                            <div class="form__radio-style form__radio-style--red"></div>
+                        </label>
                     </div>
-                    <div class="block_text">
-                        <div class="text_1">
-                            <p>до 100 км</p>
-                            <p>Запас хода</p>
-                        </div>
-                        <div class="text_2">
-                            <p>25 км/ч</p>
-                            <p>Макс корость</p>
-                        </div>
-                        <div class="text_3">
-                            <p>3 режима езды</p>
-                            <p>механический, гибридный, электрический</p>
-                        </div>
-                        <div class="text_4">
-                            <p>25 кг</p>
-                            <p>вес</p>
-                        </div>
-                    </div>
+                    <button class="form__btn" type="submit">
+                        ЗАКАЗАТЬ
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- !================== -->
+    <section class="three-form">
+        <div class="container">
+            <div class="three-form__inner">
+                <div class="three-form__inner-img">
+                    <img src="img/slaid_bike__black.jpg" alt="slide_bleck">
+                    <img src="img/slide_white_bike.jpg" alt="slide_white">
+                    <img src="img/slide_3_beke.jpg" alt="slide_bikes">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

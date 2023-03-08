@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.three-form__inner-img,.bike__buton').slick({
+        arrows:false,
+        dots:true,
+        fade:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+    });
+});
