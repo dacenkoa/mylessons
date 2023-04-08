@@ -49,7 +49,7 @@ body{
 	/* background-color: #6F6F6F; */
 }
 .container {
-	max-width: 1220px;
+	max-width: 1220px; /*max-width: 1200; але ми додали паддінг 15пх з ліва і права то: max-width: 1230;*/
 	padding: 0 10px;
 	/* border:2px solid #131313; */
 	margin: 0 auto;
